@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Young Serif", serif;
+}
+
+.container {
+    padding: 50px;
+
+}
+
+.section-one {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-one__contact {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+
+}
+
+.section-one {
+    font-size: 60px;
+}
+
+
+.section-one__role {
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+.section-two {
+    margin-top: 20px;
+}
+
+.section-three {
+    margin-top: 20px;
+}
+
+.section-four {
+    margin-top: 20px;
+}
+
+.section-five {
+    margin-top: 20px;
+}
+
+
+.section-one__desc,
+.section-two__desc,
+.section-three__desc,
+.section-four__desc,
+.section-five__desc {
+    margin-top: 20px;
+}
+
+.section-five {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-five__title a {
+    color: skyblue;
+
+}
+
+.section-three li,
+.section-four li {
+    list-style: none;
+}
+
+.section-three {
+    background-color: #6462fd;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.section-four {
+    background-color: #fe7517;
+    color: black;
+    display: inline-block;
+    padding: 20px;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+    display: inline-block;
+
+}
+
+.card_one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.card_one_one {
+    font-size: 60px;
+}
+
+.card_one_tag {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+
+}
+.card{
+    padding: 50px;
+}
+.contact{
+    margin-bottom: solid;
+}
+.last{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.contact-form{
+    margin-top: 20px;
+}
+    
+.contact-form__input,.contact-form__textarea,.contact-form__submit{
+    margin-top: 10px;
+}
+
+.contact-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+    
+}
+
+.contact-form__textarea{
+    padding: 10px;
+    border: none;
+    border: solid black 1px;
+}
+
+.contact-form__submit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:20px ;
+    padding-right: 20px;
+    background-color: orangered;
+    color: black;
+    border: none;
+
+}
+.section-one__contact:hover{
+    box-shadow:0 0 10px black,
+    0 0 20px orangered,
+    0 0 40px orange;
+}
+.card_one_tag:hover{
+    color: aliceblue;
+    box-shadow:0 0 10px orange,
+    0 0 20px orangered;
+}
+.contact-form__submit:hover{
+       color: aliceblue;
+    box-shadow:0 0 10px orange,
+    0 0 20px orangered;
+}
